@@ -1,0 +1,8 @@
+[user]
+	email = david.gonzalez@citycable.ch
+	name = DavidGL17
+[alias]
+	cm = commit -m
+	s = status
+	d = diff
+	l = log --graph --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\" --abbrev-commit
