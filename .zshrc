@@ -113,7 +113,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias sd='du ./* -sh'
+alias sd='du -sh ./* ./.* | sort -h'
 
 # git aliases
 alias gs='git status'
