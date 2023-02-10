@@ -118,3 +118,6 @@ alias sd='du -sh ./* ./.* | sort -h'
 # git aliases
 alias gs='git status'
 alias gcm='git commit -m'
+
+[ -x /usr/bin/ssh-agent ] && eval "$(ssh-agent -s)" &> /dev/null
+ssh-add ~/.ssh/github &> /dev/null
