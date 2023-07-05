@@ -120,8 +120,8 @@ alias gs='git status'
 alias gcm='git commit -m'
 
 # poetry alias 
-alias prpoe = 'poetry run poe'
-alias prp = 'poetry run python'
+alias prpoe='poetry run poe'
+alias prp='poetry run python'
 
 [ -x /usr/bin/ssh-agent ] && eval "$(ssh-agent -s)" &> /dev/null
 ssh-add ~/.ssh/key_* &> /dev/null
