@@ -119,5 +119,9 @@ alias sd='du -sh ./* ./.* | sort -h'
 alias gs='git status'
 alias gcm='git commit -m'
 
+# poetry alias 
+alias prpoe = 'poetry run poe'
+alias prp = 'poetry run python'
+
 [ -x /usr/bin/ssh-agent ] && eval "$(ssh-agent -s)" &> /dev/null
-ssh-add ~/.ssh/github &> /dev/null
+ssh-add ~/.ssh/key_* &> /dev/null
